@@ -1,0 +1,22 @@
+{
+  "name": "uport-login",
+  "version": "1.0.0",
+  "description": "Login de uport",
+  "main": "index.js",
+  "dependencies": {
+    "did-jwt": "^4.0.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.2.7",
+    "open": "^7.0.0",
+    "uport-credentials": "^1.2.3",
+    "uport-transports": "^0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "nodejs index-login.js",
+    "verification": "nodejs index-verification.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
